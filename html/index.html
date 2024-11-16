@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money HUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="money-container">
+        <!-- Left Column: Money Info -->
+        <div class="left-column">
+            <!-- Cash with Font Awesome Icon -->
+            <div class="neon-text icon-text">
+                <i class="fas fa-money-bill" style="top:10px; scale:0.5;"></i>
+                <span id="cash">0€</span>
+            </div>
+        </div>
+        <div class="middle-column">
+            <!-- Bank with Font Awesome Icon -->
+            <div class="neon-text icon-text">
+                <i class="fas fa-money-check-alt" style="scale:0.5; top:10px;"></i>
+                <span id="bank">0€</span>
+            </div>
+        </div>
+        <!-- Right Column: Job Info -->
+        <div class="right-column">
+            <div class="neon-text icon-text">
+                <i class="fas fa-briefcase" style="scale:0.5;"></i>
+                <span id="job">Työtön</span>
+                <span>-</span>
+                <span id="grade">Rotta</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            // Select all elements with the "neon-text" class
+            const neonElements = document.querySelectorAll('.neon-text');
+
+            // Iterate over each element and apply a random animation delay
+            neonElements.forEach(element => {
+                const randomDelay = Math.random() * 2; // Random delay between 0 and 2 seconds
+                element.style.animationDelay = `${randomDelay}s`;
+            });
+        };
+    </script>
+</body>
+</html>
