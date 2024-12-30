@@ -29,7 +29,7 @@
 }
 .left-column,
 .right-column {
-    flex: 1; /* Allow both columns to grow and fill available space */
+
     padding: 10px; /* Add some padding */
 }
 /* Neon border animation */
