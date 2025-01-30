@@ -1,4 +1,4 @@
-# DS-Hud QB-Core
+# DS-Hud QB-Core / ESX
 
 DS-Hud is a lightweight, customizable HUD script for FiveM using the QB-Core framework. This script provides a clean and simple interface that displays important player information such as cash, bank balance, job, and job grade, all while maintaining smooth animations and a minimalist design.
 
@@ -17,7 +17,7 @@ DS-Hud is a lightweight, customizable HUD script for FiveM using the QB-Core fra
 
 ### Prerequisites
 
-- **FiveM Server** with QB-Core framework installed.
+- **FiveM Server** with QB-Core OR ESX framework installed.
 - Basic knowledge of FiveM resource installation.
 
 ### Steps
