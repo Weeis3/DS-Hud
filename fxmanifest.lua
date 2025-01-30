@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'Weeis'
-description 'HUD for QBcore'
-version '1.0.0'
+description 'HUD for QBcore and ESX'
+version '1.3.0'
 
 client_scripts {
     'client/client.lua',
@@ -16,7 +16,7 @@ server_scripts {
 files {
     'html/index.html',
     'html/style.css',
-    'html/fonts/HighSpeed.ttf',  -- The custom font file
+    'html/fonts/HighSpeed.ttf',
     'html/script.js',
 }
 
