@@ -28,7 +28,7 @@ AddEventHandler('ds-hud:getJobData', function()
         local ESX = exports['es_extended']:getSharedObject()
         local xPlayer = ESX.GetPlayerFromId(src)
         job = xPlayer.job.label
-        grade = xPlayer.job.grade_name
+        grade = xPlayer.job.grade_label
     end
 
     TriggerClientEvent('ds-hud:updateJobData', src, job, grade)
